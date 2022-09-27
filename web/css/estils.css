@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
   
+  /*NO TOCAR*/
   body {
     margin: 0 auto;
     min-width: 1000px;
@@ -38,8 +39,24 @@
   /* header and footer */
   
   header, footer {
-    border-top: 5px solid #a66;
-    border-bottom: 5px solid #a66;
+    border-top: 5px solid rgb(65, 186, 207);
+    border-bottom: 5px solid rgb(65, 186, 207);
+    background-color: rgb(229, 245, 244);
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  p{
+    font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  h1{
+    font-family: 'Roboto Slab', serif;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+  }
+  h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    text-decoration: underline;
+  }
