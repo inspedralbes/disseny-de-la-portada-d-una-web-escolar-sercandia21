@@ -2,61 +2,99 @@
 
 * {
     box-sizing: border-box;
-  }
-  
-  /*NO TOCAR*/
-  body {
+}
+
+/*NO TOCAR*/
+body {
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
-  }
-  
-  /* Layout */
-  
-  section {
+}
+
+/* Layout */
+
+section {
     float: left;
     width: 50%;
-  }
-  
-  aside {
+}
+
+aside {
     float: left;
     width: 30%;
-  }
-  
-  nav {
+}
+
+nav {
     float: left;
     width: 20%;
-  }
-  
-  footer {
+}
+
+footer {
     clear: both;
-  }
-  
-  header, section, aside, nav, footer {
+}
+
+header,
+section,
+aside,
+nav,
+footer {
     padding: 20px;
-  }
-  
-  /* header and footer */
-  
-  header, footer {
+}
+
+/* header and footer */
+
+header,
+footer {
     border-top: 5px solid rgb(65, 186, 207);
     border-bottom: 5px solid rgb(65, 186, 207);
     background-color: rgb(229, 245, 244);
-  }
-  
-  /* WRITE YOUR CODE BELOW HERE */
-  p{
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+p {
     font-family: 'Noto Serif', serif;
-    font-size: 20px;
-    line-height: 34px;
-  }
-  h1{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1 {
     font-family: 'Roboto Slab', serif;
     word-spacing: 20px;
     letter-spacing: 4px;
-  }
-  h2{
+    text-align: center;
+}
+
+h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: lighter;
     text-decoration: underline;
-  }
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+/*Top Course Choices Ul & NavBar*/
+aside ul,
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+aside li a,
+nav li a {
+    font-family: 'Noto Serif', serif;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+aside li a:hover,
+nav li a:hover {
+    background-color: rgb(75, 147, 165);
+    color: white;
+}
