@@ -9,6 +9,7 @@ body {
     margin: 0 auto;
     min-width: 1000px;
     max-width: 1400px;
+    font-family: 'Noto Serif', serif;
 }
 
 /* Layout */
@@ -46,7 +47,12 @@ header,
 footer {
     border-top: 5px solid rgb(65, 186, 207);
     border-bottom: 5px solid rgb(65, 186, 207);
-    background-color: rgb(229, 245, 244);
+    background-color: rgb(255, 255, 255);
+}
+
+body a {
+    text-decoration: none;
+    color: rgb(65, 186, 207);
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -97,4 +103,9 @@ aside li a:hover,
 nav li a:hover {
     background-color: rgb(75, 147, 165);
     color: white;
+}
+
+.logo {
+    width: 90px;
+    display:block;
 }
