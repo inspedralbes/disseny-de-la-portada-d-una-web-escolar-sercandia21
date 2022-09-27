@@ -59,6 +59,9 @@ body a {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+h2+p{
+    text-indent: 20px;
+}
 p {
     font-family: 'Noto Serif', serif;
     font-size: 16px;
@@ -67,7 +70,8 @@ p {
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 40px;
     word-spacing: 20px;
     letter-spacing: 4px;
     text-align: center;
@@ -81,6 +85,7 @@ h2 {
 .ext-link:visited {
     color: rgb(77, 86, 209);
 }
+
 .ext-link:hover {
     color: rgb(12, 103, 206);
 }
@@ -93,6 +98,7 @@ nav ul {
     padding: 0;
     width: 200px;
     background-color: #d6f0f1;
+    box-shadow: 4px 4px #c5dedf;
 }
 
 aside li a,
@@ -120,7 +126,8 @@ nav li a:hover {
     padding-left: 8px;
     width: 23px;
 }
-.more{
+
+.more {
     color: rgb(27, 99, 158);
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
