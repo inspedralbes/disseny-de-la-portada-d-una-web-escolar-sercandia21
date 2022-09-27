@@ -54,8 +54,8 @@ footer {
 }
 
 body a {
-    text-decoration: none;
     color: rgb(73, 203, 226);
+    text-decoration: underline;
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -88,6 +88,7 @@ h2 {
 
 .ext-link:hover {
     color: rgb(12, 103, 206);
+    text-decoration: none;
 }
 
 /*Top Course Choices Ul & NavBar*/
