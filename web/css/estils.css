@@ -43,10 +43,11 @@ footer {
 
 /* header and footer */
 
-header{
+header {
     border-bottom: 5px solid rgb(65, 186, 207);
     background-color: rgb(255, 255, 255);
 }
+
 footer {
     border-top: 5px solid rgb(65, 186, 207);
     background-color: rgb(255, 255, 255);
@@ -78,7 +79,7 @@ h2 {
 }
 
 a:visited {
-    color: aquamarine;
+    color: rgb(103, 101, 228);
 }
 
 /*Top Course Choices Ul & NavBar*/
@@ -109,5 +110,10 @@ nav li a:hover {
 
 .logo {
     width: 90px;
-    display:block;
+    display: block;
+}
+
+.link-img {
+    padding-left: 8px;
+    width: 23px;
 }
