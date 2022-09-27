@@ -78,8 +78,8 @@ h2 {
     font-weight: lighter;
 }
 
-a:visited {
-    color: rgb(103, 101, 228);
+.ext-link:visited {
+    color: rgb(77, 86, 209);
 }
 
 /*Top Course Choices Ul & NavBar*/
@@ -116,4 +116,8 @@ nav li a:hover {
 .link-img {
     padding-left: 8px;
     width: 23px;
+}
+.more{
+    color: rgb(27, 99, 158);
+    text-transform:capitalize;
 }
