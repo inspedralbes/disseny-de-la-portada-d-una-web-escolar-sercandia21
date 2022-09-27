@@ -55,7 +55,7 @@ footer {
 
 body a {
     text-decoration: none;
-    color: rgb(65, 186, 207);
+    color: rgb(73, 203, 226);
 }
 
 /* WRITE YOUR CODE BELOW HERE */
@@ -80,6 +80,9 @@ h2 {
 
 .ext-link:visited {
     color: rgb(77, 86, 209);
+}
+.ext-link:hover {
+    color: rgb(12, 103, 206);
 }
 
 /*Top Course Choices Ul & NavBar*/
