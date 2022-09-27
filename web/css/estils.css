@@ -72,7 +72,6 @@ h1 {
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: lighter;
-    text-decoration: underline;
 }
 
 a:visited {
@@ -86,7 +85,7 @@ nav ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #d6f0f1;
 }
 
 aside li a,
@@ -101,7 +100,7 @@ nav li a {
 /* Change the link color on hover */
 aside li a:hover,
 nav li a:hover {
-    background-color: rgb(75, 147, 165);
+    background-color: rgb(117, 214, 221);
     color: white;
 }
 
