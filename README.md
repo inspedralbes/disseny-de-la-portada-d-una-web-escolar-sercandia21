@@ -1,5 +1,5 @@
-Nom: Sergi Cantero
-Nom Projecte: UF1 NF1 Pt4 Composició bàsica
+Nom: Sergi Cantero.
+Nom Projecte: UF1 NF1 Pt4 Composició bàsica.
 
 Descripció del procés seguit per pujar la web al labs.
 El primer que hem de fer és crear un subdomini d'alumnes.inspedralbes si no el tenim.
