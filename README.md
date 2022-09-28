@@ -1,7 +1,7 @@
 # Pràctica mkdocs-grup3  
   
-Nom: Sergi Cantero.
-Nom Projecte: UF1 NF1 Pt4 Composició bàsica.
+- Nom: Sergi Cantero.
+- Nom Projecte: UF1 NF1 Pt4 Composició bàsica.
   
 ## Descripció del procés seguit per pujar la web al labs. 
 
