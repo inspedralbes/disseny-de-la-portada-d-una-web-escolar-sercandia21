@@ -59,9 +59,10 @@ body a {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
-h2+p{
+h2+p {
     text-indent: 20px;
 }
+
 p {
     font-family: 'Noto Serif', serif;
     font-size: 16px;
@@ -131,4 +132,16 @@ nav li a:hover {
 .more {
     color: rgb(27, 99, 158);
     text-transform: capitalize;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: rgb(231, 85, 85);
+    padding: 30px;
+}
+.wrapper div{
+    background-color: rgb(173, 233, 233);
 }
